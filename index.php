@@ -14,5 +14,6 @@
     <p><a href="PWR.php" target="_blank" rel="external" hreflang="en" type="text/html"> Power Supplies </a></p>
     <p><a href="RAM.php" target="_blank" rel="external" hreflang="en" type="text/html"> RAM </a></p>
     <p><a href="HDD.php" target="_blank" rel="external" hreflang="en" type="text/html"> Storage </a></p>
+    <p><a href="GPU.php" target="_blank" rel="external" hreflang="en" type="text/html"> Graphics Cards </a></p>
 </body>
 </html>
