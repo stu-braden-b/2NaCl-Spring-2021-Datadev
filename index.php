@@ -9,6 +9,10 @@
 <body>
     <h1>This will be the front page</h1>
     <p>We will have links to all the other product pages here</p>
-    <p><a href="pp_CPU.php" target="_blank" rel="external" hreflang="en" type="text/html"> Link </a></p>
+    <p><a href="CPU.php" target="_blank" rel="external" hreflang="en" type="text/html"> CPUs </a></p>
+    <p><a href="MOBO.php" target="_blank" rel="external" hreflang="en" type="text/html"> Motherboards </a></p>
+    <p><a href="PWR.php" target="_blank" rel="external" hreflang="en" type="text/html"> Power Supplies </a></p>
+    <p><a href="RAM.php" target="_blank" rel="external" hreflang="en" type="text/html"> RAM </a></p>
+    <p><a href="HDD.php" target="_blank" rel="external" hreflang="en" type="text/html"> Storage </a></p>
 </body>
 </html>
