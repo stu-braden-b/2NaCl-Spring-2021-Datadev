@@ -7,7 +7,9 @@
     <title>Coleman's Computers</title>
 </head>
 <body>
-    <h1>This will be the front page</h1>
+    <div class="test">
+        <h1>This will be the front page</h1>
+    </div>
     <p>We will have links to all the other product pages here</p>
     <p><a href="CPU.php" target="_blank" rel="external" hreflang="en" type="text/html"> CPUs </a></p>
     <p><a href="MOBO.php" target="_blank" rel="external" hreflang="en" type="text/html"> Motherboards </a></p>
