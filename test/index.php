@@ -7,16 +7,11 @@
     <title>Coleman's Computers</title>
 </head>
 <body>
-    <div class="test">
-        <h1>This will be the front page</h1>
-    </div>
-
     <div class="topnav">
         <a class="active" href="#home">Home</a>
         <a href="#news">News</a>
         <a href="#contact">Contact</a>
         <a href="#about">About</a>
     </div>
-
 </body>
 </html>
