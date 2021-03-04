@@ -15,7 +15,13 @@
     <p><a href="RAM.php" target="_blank" rel="external" hreflang="en" type="text/html"> RAM </a></p>
     <p><a href="HDD.php" target="_blank" rel="external" hreflang="en" type="text/html"> Storage </a></p>
     <p><a href="GPU.php" target="_blank" rel="external" hreflang="en" type="text/html"> Graphics Cards </a></p>
-    <p>hello</p>
+    
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </div>
 
 </body>
 </html>
