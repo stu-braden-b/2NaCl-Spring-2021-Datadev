@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coleman's Computers</title>
 </head>
@@ -17,7 +17,7 @@
     <p><a href="RAM.php" target="_blank" rel="external" hreflang="en" type="text/html"> RAM </a></p>
     <p><a href="HDD.php" target="_blank" rel="external" hreflang="en" type="text/html"> Storage </a></p>
     <p><a href="GPU.php" target="_blank" rel="external" hreflang="en" type="text/html"> Graphics Cards </a></p>
-    
+    <p>test</p>
     <div class="topnav">
         <a class="active" href="#home">Home</a>
         <a href="#news">News</a>
