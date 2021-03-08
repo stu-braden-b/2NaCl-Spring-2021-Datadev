@@ -7,12 +7,16 @@
     <title>Coleman's Computers</title>
 </head>
 <body>
+    <img class="logo" src="assets/Logo.png" alt="Logo">
     <div class="topnav">
         <a class="active" href="#home">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
+        <a href="CPU.php">CPUs</a>
+        <a href="GPU.php">GPUs</a>
+        <a href="RAM.php">Memory</a>
+        <a href="HDD.php">Storage</a>
+        <a href="PWR.php">Power Supplies</a>
     </div>
+
 
 </body>
 </html>
