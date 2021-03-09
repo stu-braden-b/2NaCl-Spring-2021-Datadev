@@ -37,6 +37,6 @@
 
   .logo {
     float: left;
-    height: 6%;
-    width: 6%
+    width: auto;
+    height: auto;
   }

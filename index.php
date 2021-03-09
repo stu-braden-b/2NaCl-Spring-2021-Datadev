@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coleman's Computers</title>
 </head>
-<body>
-    <img class="logo" src="assets/Logo.png" alt="Logo">
+<body>    
     <div class="topnav">
+    <img class="logo" src="assets/Logo.png" alt="Logo">
         <a class="active" href="#home">Home</a>
         <a href="CPU.php">CPUs</a>
         <a href="GPU.php">GPUs</a>
