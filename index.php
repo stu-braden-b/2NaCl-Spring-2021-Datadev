@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="styles.css">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coleman's Computers</title>
 </head>
 <body>
-    <h1>This will be the front page</h1>
-    <p>We will have links to all the other product pages here</p>
-    <p><a href="CPU.php" target="_blank" rel="external" hreflang="en" type="text/html"> CPUs </a></p>
-    <p><a href="MOBO.php" target="_blank" rel="external" hreflang="en" type="text/html"> Motherboards </a></p>
-    <p><a href="PWR.php" target="_blank" rel="external" hreflang="en" type="text/html"> Power Supplies </a></p>
-    <p><a href="RAM.php" target="_blank" rel="external" hreflang="en" type="text/html"> RAM </a></p>
-    <p><a href="HDD.php" target="_blank" rel="external" hreflang="en" type="text/html"> Storage </a></p>
-    <p><a href="GPU.php" target="_blank" rel="external" hreflang="en" type="text/html"> Graphics Cards </a></p>
+    <img class="logo" src="assets/Logo.png" alt="Logo">
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="CPU.php">CPUs</a>
+        <a href="GPU.php">GPUs</a>
+        <a href="RAM.php">Memory</a>
+        <a href="HDD.php">Storage</a>
+        <a href="PWR.php">Power Supplies</a>
+    </div>
+
+
 </body>
 </html>
