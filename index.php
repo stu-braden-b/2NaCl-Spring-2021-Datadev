@@ -8,7 +8,7 @@
 </head>
 <body>    
     <div class="topnav">
-    <img class="logo" src="assets/Logo.png" alt="Logo">
+    <img class="logo" src="assets/logo.png" alt="Logo">
         <a class="active" href="#home">Home</a>
         <a href="CPU.php">CPUs</a>
         <a href="GPU.php">GPUs</a>
