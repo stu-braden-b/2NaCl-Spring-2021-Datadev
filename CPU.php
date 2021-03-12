@@ -5,18 +5,20 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Aldrich" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
   </style>
 </head>
-<body>
-<div class="jumbotron text-center" style="margin-bottom:0; background-color: #333; color: white;">
-  <h1>Coleman's Computers</h1>
-  <p>No, we're not the camping company!</p> 
+<body style="background-color: #333;">
+<div class="jumbotron text-center" style="margin-bottom:0; margin-top:-50px; background-color: #545454; color: black;">
+<img src="assets/logo.png" alt="Logo">
+  <h2 style="font-family: Aldrich;">No, we're not the outdoors company!</h2>
 </div>
 
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse" style="margin-top:-40px;">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -39,14 +41,6 @@
     </div>
   </div>
 </nav>
-
-<div class="container">
-  <div class="row">
-    <div class="col-xl-2">
-      <img href="/assets/logo.png">
-    </div>
-  </div>
-</div>
 
 </body>
 </html>
