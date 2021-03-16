@@ -33,20 +33,10 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="CPU.php">CPUs</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="GPU.php">GPUs</a>
-            </li>
-          <li class="nav-item">
             <a class="nav-link" href="RAM.php">Memory</a>
-          </li>
-          <li calss="nav-item">
             <a class="nav-link" href="MOBO.php">Motherboards</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="HDD.php">Storage</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="PWR.php">Power Supplies</a>
           </li>
         </ul>
