@@ -14,7 +14,7 @@
 </head>
 <body style="background-color: #333;">
 <div class="jumbotron text-center" style="margin-bottom:0; margin-top:-50px; background-color: #545454; color: black;">
-<img src="assets/logo.png" alt="Logo">
+  <img src="assets/logo.png" class="img-responsive center-block" alt="Logo">
   <h2 style="font-family: Aldrich;">No, we're not the outdoors company!</h2>
 </div>
 
