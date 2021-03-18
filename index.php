@@ -17,7 +17,7 @@
 <!--Navbar Start-->
 <div style="background-color:#545454; margin-left:-15px;" class="container-fluid">
   <img style="float:left; width:10%; height:10%;" src="assets/logo.png"/>
-  <div style="padding-top:15px; float:right; font-family:Aldrich; color:#000;" class="content-heading"><h1>No, We're Not the Camping Company</h1></div>
+  <div style="padding-top:15px; float:right; font-family:Aldrich; color:#000;" class="content-heading"><h1 style="font-size:2vw;">No, We're Not the Camping Company</h1></div>
 </div>
 
 <nav class="navbar navbar-inverse" style="font-family: Aldrich;">
@@ -28,10 +28,10 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                     
       </button>
-      <a style="font-size: 2em;" class="navbar-brand" href="#">Coleman's</a>
+      <a style="font-size: 1.5vw;" class="navbar-brand" href="#">Coleman's</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul style="font-size: 2em;" class="nav navbar-nav">
+      <ul style="font-size: 1.5vw;" class="nav navbar-nav">
         <li><a href="CPU.php">CPUs</a></li>
         <li><a href="GPU.php">GPUs</a></li>
         <li><a href="RAM.php">RAM</a></li>
