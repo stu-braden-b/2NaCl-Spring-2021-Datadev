@@ -31,9 +31,9 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul style="font-size: 2em;" class="nav navbar-nav">
-        <li><a href="CPU.php">CPUs</a></li>
+        <li class="active"><a href="#">CPUs</a></li>
         <li><a href="GPU.php">GPUs</a></li>
-        <li class="active"><a href="#">RAM</a></li>
+        <li><a href="RAM.php">RAM</a></li>
         <li><a href="MOBO.php">Motherboards</a></li>
         <li><a href="HDD.php">Storage</a></li>
         <li><a href="PWR.php">Power Supplies</a></li>
@@ -41,3 +41,57 @@
     </div>
   </div>
 </nav>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div style="background-color:#BCB8B1; border-color:#A00008;" class="panel panel-primary">
+        <div style="background-color:#A00008; border-color:#A00008;" class="panel-heading">Ryzen 5 5600x</div>
+        <div class="panel-body"><img src="assets/product_imgs/5600x.jpg" class="img-responsive" style="width:100%" alt="Ryzen 7 5600x"></div>
+        <div style="border-width:2px; border-color:#A00008; background-color:#BCB8B1;" class="panel-footer">Out of Stock</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-danger">
+        <div class="panel-heading">Placeholder</div>
+        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Description Placeholder</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-success">
+        <div class="panel-heading">Placeholder</div>
+        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Description Placeholder</div>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">Placeholder</div>
+        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Description Placeholder</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading">Placeholder</div>
+        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Description Placeholder</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading">Placeholder</div>
+        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Description Placeholder</div>
+      </div>
+    </div>
+  </div>
+</div><br><br>
+</body>
+</html>

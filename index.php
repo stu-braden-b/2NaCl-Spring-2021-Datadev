@@ -86,9 +86,5 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-
-<div class="container-fluid">
-  <h1>
-
 </body>
 </html>
