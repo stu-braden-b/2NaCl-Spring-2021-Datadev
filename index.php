@@ -91,10 +91,15 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-xl-12">
-    <h1>About Us</h1>
 </body>
+
+<footer>
+
+<nav class="navbar-wrapper navbar-inverse navbar-fixed-bottom">
+  <div class="container-fluid">
+    <p class="navbar-text pull-left">Bruh</p>
+  </div>
+</nav>
+</footer>
+
 </html>
