@@ -51,30 +51,35 @@
     <li data-target="#FeaturedCarousel" data-slide-to="2"></li>
     <li data-target="#FeaturedCarousel" data-slide-to="3"></li>
     <li data-target="#FeaturedCarousel" data-slide-to="4"></li>
+    <li data-target="#FeaturedCarousel" data-slide-to="5"></li>
   </ol>
 
   <!--Wrapper for slides-->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img style="width:110%;" class="center-block" src="assets/CPU.png" alt="Ryzen 5000">
+      <a href="CPU.php"><img style="width:110%;" class="center-block" src="assets/CPU.png" alt="Ryzen 5000"></a>
     </div>
 
     <div class="item">
-      <img style="width:110%;" class="center-block" src="assets/GPU.jpeg" alt="30 Series GPUs">
+      <a href="GPU.php"><img style="width:110%;" class="center-block" src="assets/GPU.jpeg" alt="30 Series GPUs"></a>
     </div>
 
     <div class="item">
-      <img style="width:110%;" class="center-block" src="assets/RAM.jpg" alt="G.SKILL RAM">
+      <a href="RAM.php"><img style="width:110%;" class="center-block" src="assets/RAM.jpg" alt="G.SKILL RAM"></a>
     </div>
 
     <div class="item">
-      <img style="width:110%;" class="center-block" src="assets/PWR.jpg" alt="EVGA Power Supplies">
+      <a href="MOBO.php"><img style="width:110%;" class="center-block" src="assets/MOBO.jpg" alt="Asus Motherboard"></a>
     </div>
 
     <div class="item">
-      <img style="width:110%;" class="center-block" src="assets/HDD.jpg" alt="Samsung SSD">
+      <a href="HDD.php"><img style="width:110%;" class="center-block" src="assets/HDD.jpg" alt="Samsung SSD"></a>
     </div>
-  </div>
+
+    <div class="item">
+      <a href="PWR.php"><img style="width:110%;" class="center-block" src="assets/PWR.jpg" alt="EVGA Power Supplies"></a>
+    </div>
+
 
   <!--Controls-->
   <a class="left carousel-control" href="#FeaturedCarousel" role="button" data-slide="prev">
@@ -86,9 +91,5 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-
-<div class="container-fluid">
-  <h1>
-
 </body>
 </html>

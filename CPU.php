@@ -41,3 +41,57 @@
     </div>
   </div>
 </nav>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div style="background-color:#BCB8B1; border-color:#A00008;" class="panel panel-primary">
+        <div style="background-color:#A00008; border-color:#A00008;" class="panel-heading">Placeholder</div>
+        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Placeholder"></div>
+        <div style="border-width:2px; border-color:#A00008; background-color:#BCB8B1;" class="panel-footer">Description Placeholder</div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div style="background-color:#BCB8B1; border-color:#A00008;" class="panel panel-primary">
+        <div style="background-color:#A00008; border-color:#A00008;" class="panel-heading">Placeholder</div>
+        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Placeholder"></div>
+        <div style="border-width:2px; border-color:#A00008; background-color:#BCB8B1;" class="panel-footer">Description Placeholder</div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div style="background-color:#BCB8B1; border-color:#A00008;" class="panel panel-primary">
+        <div style="background-color:#A00008; border-color:#A00008;" class="panel-heading">Placeholder</div>
+        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Placeholder"></div>
+        <div style="border-width:2px; border-color:#A00008; background-color:#BCB8B1;" class="panel-footer">Description Placeholder</div>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+<div class="container">    
+  <div class="row">
+  <div class="col-sm-4">
+      <div style="background-color:#BCB8B1; border-color:#A00008;" class="panel panel-primary">
+        <div style="background-color:#A00008; border-color:#A00008;" class="panel-heading">Placeholder</div>
+        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Placeholder"></div>
+        <div style="border-width:2px; border-color:#A00008; background-color:#BCB8B1;" class="panel-footer">Description Placeholder</div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div style="background-color:#BCB8B1; border-color:#A00008;" class="panel panel-primary">
+        <div style="background-color:#A00008; border-color:#A00008;" class="panel-heading">Placeholder</div>
+        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Placeholder"></div>
+        <div style="border-width:2px; border-color:#A00008; background-color:#BCB8B1;" class="panel-footer">Description Placeholder</div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div style="background-color:#BCB8B1; border-color:#A00008;" class="panel panel-primary">
+        <div style="background-color:#A00008; border-color:#A00008;" class="panel-heading">Placeholder</div>
+        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Placeholder"></div>
+        <div style="border-width:2px; border-color:#A00008; background-color:#BCB8B1;" class="panel-footer">Description Placeholder</div>
+      </div>
+    </div>
+  </div>
+</div><br><br>
+</body>
+</html>
