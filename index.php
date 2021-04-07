@@ -91,13 +91,20 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+<div style="padding-left: 50%; padding-right: 50%; padding-top: 1.5%; padding-bottom: 1.5%; border-style: none;"></div>
+<div style="background-color: #222222; border-width: 5px; border-color: #0C0C0C; border-style: outset;">
+  <h1 style="font-family: Aldrich;">About Us</h1>
+  <p style="font-family: Aldrich; font-size: 16px">Henry Coleman is a resident of Lexington for 20 years, moving here after acquiring his college degree. He began his career as a computer repairman, but He wanted to do more than just repairs. He knew many people who were not just needing repairs, but needed better parts for their computers.</p>
+  <p style="font-family: Aldrich; font-size: 16px">In 2017, he decided to open his own business for selling, assembling, and repairing computers. Coleman’s Computers began its online presence a year later, although it was merely an online storefront to display what products were in stock at the store.. Coleman’s Computers began its part pickup program in 2020 to combat the global pandemic, as well as it’s part delivery services. Recently, Coleman’s Computers has pushed back toward in-person services, but still uses the online storefront to display products to be found in store.</p>
+</div>
+<div style="padding-left: 50%; padding-right: 50%; padding-top: 1.5%; padding-bottom: 1.5%; border-style: none;"></div>
 </body>
 
 <footer>
 
 <nav class="navbar-wrapper navbar-inverse navbar-fixed-bottom">
   <div class="container-fluid">
-    <p class="navbar-text pull-left">Bruh</p>
+    <p class="navbar-text pull-left">Coleman's Computers</p>
   </div>
 </nav>
 </footer>
