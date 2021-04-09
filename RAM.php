@@ -15,8 +15,8 @@
 
 <!--Navbar Start-->
 <div style="background-color:#545454; margin-left:-15px;" class="container-fluid">
-  <a href="index.php"><img style="float:left; width:10%; height:10%;" src="assets/logo.png"/></a>
-  <div style="padding-top:15px; float:right; font-family:Aldrich; color:#000;" class="content-heading"><h1>No, We're Not the Camping Company</h1></div>
+  <a href="index.php"><img style="float:left; width:10%; min-width:150px; height:auto;" src="assets/logo.png"/></a>
+  <div style="padding-top:15px; float:right; font-family:Aldrich; color:#000;" class="content-heading"><h1 style="font-size:calc(0.5em + 1.5vw);">No, We're Not the Camping Company</h1></div>
 </div>
 
 <nav class="navbar navbar-inverse" style="font-family: Aldrich;">
