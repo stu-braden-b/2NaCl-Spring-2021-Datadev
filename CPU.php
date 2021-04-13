@@ -1,3 +1,6 @@
+<?php
+    include_once 'assets/db.inc.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -94,8 +97,16 @@
 </div><br><br>
 </body>
 
-<footer>
+<?php
+  $sql = "SELECT * FROM CPU;";
+  $result = mysqli_query($conn, $sql);
+  $resultCheck = mysqli_num_rows($result);
 
+  if ($resultCheck > 0) {
+    echo $row['2'];
+  }
+  ?>
+<footer>
 <nav class="navbar-wrapper navbar-inverse navbar-fixed-bottom">
   <div class="container-fluid">
     <p class="navbar-text pull-left">Coleman's Computers</p>
