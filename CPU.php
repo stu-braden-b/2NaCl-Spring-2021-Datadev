@@ -98,14 +98,15 @@
 </body>
 
 <?php
-  $sql = "SELECT * FROM CPU;";
-  $result = mysqli_query($conn, $sql);
-  $resultCheck = mysqli_num_rows($result);
 
-  if ($resultCheck > 0) {
-    echo $row['2'];
+$result = mysqli_query($conn, "SELECT * FROM CPU");
+if (mysqli_num_rows($result)) {
+  while($row = mysqli_fetch_array($result)) {
+    echo $row['itemName'];
   }
-  ?>
+}
+
+?>
 <footer>
 <nav class="navbar-wrapper navbar-inverse navbar-fixed-bottom">
   <div class="container-fluid">
