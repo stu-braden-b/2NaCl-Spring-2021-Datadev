@@ -27,10 +27,10 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                     
       </button>
-      <a style="font-size: 2em;" class="navbar-brand" href="index.php">Coleman's</a>
+      <a style="font-size:calc(1em + 1vw);" class="navbar-brand" href="index.php">Coleman's</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul style="font-size: 2em;" class="nav navbar-nav">
+      <ul style="font-size:calc(0.5em + 0.75vw);" class="nav navbar-nav">
         <li class="active"><a href="#">CPUs</a></li>
         <li><a href="GPU.php">GPUs</a></li>
         <li><a href="RAM.php">RAM</a></li>
@@ -52,9 +52,9 @@
         $result = mysqli_query($conn, "SELECT * FROM CPU WHERE itemID=1");
         if (mysqli_num_rows($result)) {
           while($row = mysqli_fetch_array($result)) {
-            echo '<div style="background-color:#A00008; border-color:#A00008;" class="panel-heading">' . $row['itemName'] . '</div>';
-            echo  '<div class="panel-body"><img src="' . $row['itemPic'] . '" class="img-responsive" style="width:100%" alt="Placeholder"></div>';
-            echo '<div style="border-width:2px; border-color:#A00008; background-color:#BCB8B1;" class="panel-footer">' . $row['itemPrice'] . '</div>';
+            echo '<div style="background-color:#A00008; border-color:#A00008; font-family:Aldrich;" class="panel-heading">' . $row['itemName'] . '</div>';
+            echo  '<div class="panel-body"><img src="' . $row['itemPic'] . '" class="img-responsive" style="width:100%" alt="Product Image"></div>';
+            echo '<div style="border-width:2px; border-color:#A00008; background-color:#BCB8B1; font-family:Aldrich;" class="panel-footer">' . $row['itemPrice'] . '</div>';
           }
         }
 ?>
@@ -67,9 +67,9 @@
         $result = mysqli_query($conn, "SELECT * FROM CPU WHERE itemID=3");
         if (mysqli_num_rows($result)) {
           while($row = mysqli_fetch_array($result)) {
-            echo '<div style="background-color:#A00008; border-color:#A00008;" class="panel-heading">' . $row['itemName'] . '</div>';
+            echo '<div style="background-color:#A00008; border-color:#A00008; font-family:Aldrich;" class="panel-heading">' . $row['itemName'] . '</div>';
             echo  '<div class="panel-body"><img src="' . $row['itemPic'] . '" class="img-responsive" style="width:100%" alt="Placeholder"></div>';
-            echo '<div style="border-width:2px; border-color:#A00008; background-color:#BCB8B1;" class="panel-footer">' . $row['itemPrice'] . '</div>';
+            echo '<div style="border-width:2px; border-color:#A00008; background-color:#BCB8B1; font-family:Aldrich;" class="panel-footer">' . $row['itemPrice'] . '</div>';
           }
         }
 ?>
@@ -81,9 +81,9 @@
         $result = mysqli_query($conn, "SELECT * FROM CPU WHERE itemID=4");
         if (mysqli_num_rows($result)) {
           while($row = mysqli_fetch_array($result)) {
-            echo '<div style="background-color:#A00008; border-color:#A00008;" class="panel-heading">' . $row['itemName'] . '</div>';
+            echo '<div style="background-color:#A00008; border-color:#A00008; font-family:Aldrich;" class="panel-heading">' . $row['itemName'] . '</div>';
             echo  '<div class="panel-body"><img src="' . $row['itemPic'] . '" class="img-responsive" style="width:100%" alt="Placeholder"></div>';
-            echo '<div style="border-width:2px; border-color:#A00008; background-color:#BCB8B1;" class="panel-footer">' . $row['itemPrice'] . '</div>';
+            echo '<div style="border-width:2px; border-color:#A00008; background-color:#BCB8B1; font-family:Aldrich;" class="panel-footer">' . $row['itemPrice'] . '</div>';
           }
         }
 ?>
@@ -100,9 +100,9 @@
         $result = mysqli_query($conn, "SELECT * FROM CPU WHERE itemID=5");
         if (mysqli_num_rows($result)) {
           while($row = mysqli_fetch_array($result)) {
-            echo '<div style="background-color:#A00008; border-color:#A00008;" class="panel-heading">' . $row['itemName'] . '</div>';
+            echo '<div style="background-color:#A00008; border-color:#A00008; font-family:Aldrich;" class="panel-heading">' . $row['itemName'] . '</div>';
             echo  '<div class="panel-body"><img src="' . $row['itemPic'] . '" class="img-responsive" style="width:100%" alt="Placeholder"></div>';
-            echo '<div style="border-width:2px; border-color:#A00008; background-color:#BCB8B1;" class="panel-footer">' . $row['itemPrice'] . '</div>';
+            echo '<div style="border-width:2px; border-color:#A00008; background-color:#BCB8B1; font-family:Aldrich;" class="panel-footer">' . $row['itemPrice'] . '</div>';
           }
         }
 ?>
@@ -114,9 +114,9 @@
         $result = mysqli_query($conn, "SELECT * FROM CPU WHERE itemID=6");
         if (mysqli_num_rows($result)) {
           while($row = mysqli_fetch_array($result)) {
-            echo '<div style="background-color:#A00008; border-color:#A00008;" class="panel-heading">' . $row['itemName'] . '</div>';
+            echo '<div style="background-color:#A00008; border-color:#A00008; font-family:Aldrich;" class="panel-heading">' . $row['itemName'] . '</div>';
             echo  '<div class="panel-body"><img src="' . $row['itemPic'] . '" class="img-responsive" style="width:100%" alt="Placeholder"></div>';
-            echo '<div style="border-width:2px; border-color:#A00008; background-color:#BCB8B1;" class="panel-footer">' . $row['itemPrice'] . '</div>';
+            echo '<div style="border-width:2px; border-color:#A00008; background-color:#BCB8B1; font-family:Aldrich;" class="panel-footer">' . $row['itemPrice'] . '</div>';
           }
         }
 ?>
@@ -128,9 +128,9 @@
         $result = mysqli_query($conn, "SELECT * FROM CPU WHERE itemID=7");
         if (mysqli_num_rows($result)) {
           while($row = mysqli_fetch_array($result)) {
-            echo '<div style="background-color:#A00008; border-color:#A00008;" class="panel-heading">' . $row['itemName'] . '</div>';
+            echo '<div style="background-color:#A00008; border-color:#A00008; font-family:Aldrich;" class="panel-heading">' . $row['itemName'] . '</div>';
             echo  '<div class="panel-body"><img src="' . $row['itemPic'] . '" class="img-responsive" style="width:100%" alt="Placeholder"></div>';
-            echo '<div style="border-width:2px; border-color:#A00008; background-color:#BCB8B1;" class="panel-footer">' . $row['itemPrice'] . '</div>';
+            echo '<div style="border-width:2px; border-color:#A00008; background-color:#BCB8B1; font-family:Aldrich;" class="panel-footer">' . $row['itemPrice'] . '</div>';
           }
         }
 ?>
@@ -142,7 +142,9 @@
 <footer>
 <nav class="navbar-wrapper navbar-inverse navbar-fixed-bottom">
   <div class="container-fluid">
-    <p class="navbar-text pull-left">Coleman's Computers</p>
+  <p style="font-family:Aldrich; font-size:calc(0.5em + 0.75vw);" class="navbar-text pull-left">Coleman's Computers</p>
+  <p style="font-family:Aldrich; font-size:calc(0.5em + 0.75vw);" class="navbar-text pull-right">Call for Purchase Options: 248-434-5508</p>
+
   </div>
 </nav>
 </footer>

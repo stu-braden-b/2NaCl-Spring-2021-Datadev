@@ -28,10 +28,10 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                     
       </button>
-      <a style="font-size: 2em;" class="navbar-brand" href="#">Coleman's</a>
+      <a style="font-size:calc(1em + 1vw);" class="navbar-brand" href="#">Coleman's</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul style="font-size: 2em;" class="nav navbar-nav">
+      <ul style="font-size:calc(0.5em + 0.75vw);" class="nav navbar-nav">
         <li><a href="CPU.php">CPUs</a></li>
         <li><a href="GPU.php">GPUs</a></li>
         <li><a href="RAM.php">RAM</a></li>
@@ -106,7 +106,8 @@
 
 <nav class="navbar-wrapper navbar-inverse navbar-fixed-bottom">
   <div class="container-fluid">
-    <p class="navbar-text pull-left">Coleman's Computers</p>
+    <p style="font-family:Aldrich; font-size:calc(0.5em + 0.75vw);" class="navbar-text pull-left">Coleman's Computers</p>
+    <p style="font-family:Aldrich; font-size:calc(0.5em + 0.75vw);" class="navbar-text pull-right">Call for Purchase Options: 248-434-5508</p>
   </div>
 </nav>
 </footer>
