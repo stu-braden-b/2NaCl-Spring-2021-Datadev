@@ -1,6 +1,4 @@
-<?php
-    include_once 'assets/db.inc.php';
-?>
+<?php include_once 'assets/db.inc.php';?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -141,12 +139,6 @@
   </div>
 </div><br><br>
 </body>
-
-<?php
-
-echo $row['itemPic'];
-
-?>
 <footer>
 <nav class="navbar-wrapper navbar-inverse navbar-fixed-bottom">
   <div class="container-fluid">
