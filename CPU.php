@@ -44,27 +44,51 @@
   </div>
 </nav>
 
+
+
 <div class="container">    
   <div class="row">
     <div class="col-sm-4">
       <div style="background-color:#BCB8B1; border-color:#A00008;" class="panel panel-primary">
-        <div style="background-color:#A00008; border-color:#A00008;" class="panel-heading">Placeholder</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Placeholder"></div>
-        <div style="border-width:2px; border-color:#A00008; background-color:#BCB8B1;" class="panel-footer">Description Placeholder</div>
+      <?php
+        $result = mysqli_query($conn, "SELECT * FROM CPU WHERE itemID=1");
+        if (mysqli_num_rows($result)) {
+          while($row = mysqli_fetch_array($result)) {
+            echo '<div style="background-color:#A00008; border-color:#A00008;" class="panel-heading">' . $row['itemName'] . '</div>';
+            echo  '<div class="panel-body"><img src="' . $row['itemPic'] . '" class="img-responsive" style="width:100%" alt="Placeholder"></div>';
+            echo '<div style="border-width:2px; border-color:#A00008; background-color:#BCB8B1;" class="panel-footer">' . $row['itemPrice'] . '</div>';
+          }
+        }
+?>
+        
       </div>
     </div>
     <div class="col-sm-4">
       <div style="background-color:#BCB8B1; border-color:#A00008;" class="panel panel-primary">
-        <div style="background-color:#A00008; border-color:#A00008;" class="panel-heading">Placeholder</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Placeholder"></div>
-        <div style="border-width:2px; border-color:#A00008; background-color:#BCB8B1;" class="panel-footer">Description Placeholder</div>
+      <?php
+        $result = mysqli_query($conn, "SELECT * FROM CPU WHERE itemID=3");
+        if (mysqli_num_rows($result)) {
+          while($row = mysqli_fetch_array($result)) {
+            echo '<div style="background-color:#A00008; border-color:#A00008;" class="panel-heading">' . $row['itemName'] . '</div>';
+            echo  '<div class="panel-body"><img src="' . $row['itemPic'] . '" class="img-responsive" style="width:100%" alt="Placeholder"></div>';
+            echo '<div style="border-width:2px; border-color:#A00008; background-color:#BCB8B1;" class="panel-footer">' . $row['itemPrice'] . '</div>';
+          }
+        }
+?>
       </div>
     </div>
     <div class="col-sm-4">
       <div style="background-color:#BCB8B1; border-color:#A00008;" class="panel panel-primary">
-        <div style="background-color:#A00008; border-color:#A00008;" class="panel-heading">Placeholder</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Placeholder"></div>
-        <div style="border-width:2px; border-color:#A00008; background-color:#BCB8B1;" class="panel-footer">Description Placeholder</div>
+      <?php
+        $result = mysqli_query($conn, "SELECT * FROM CPU WHERE itemID=4");
+        if (mysqli_num_rows($result)) {
+          while($row = mysqli_fetch_array($result)) {
+            echo '<div style="background-color:#A00008; border-color:#A00008;" class="panel-heading">' . $row['itemName'] . '</div>';
+            echo  '<div class="panel-body"><img src="' . $row['itemPic'] . '" class="img-responsive" style="width:100%" alt="Placeholder"></div>';
+            echo '<div style="border-width:2px; border-color:#A00008; background-color:#BCB8B1;" class="panel-footer">' . $row['itemPrice'] . '</div>';
+          }
+        }
+?>
       </div>
     </div>
   </div>
@@ -74,23 +98,44 @@
   <div class="row">
   <div class="col-sm-4">
       <div style="background-color:#BCB8B1; border-color:#A00008;" class="panel panel-primary">
-        <div style="background-color:#A00008; border-color:#A00008;" class="panel-heading">Placeholder</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Placeholder"></div>
-        <div style="border-width:2px; border-color:#A00008; background-color:#BCB8B1;" class="panel-footer">Description Placeholder</div>
+      <?php
+        $result = mysqli_query($conn, "SELECT * FROM CPU WHERE itemID=5");
+        if (mysqli_num_rows($result)) {
+          while($row = mysqli_fetch_array($result)) {
+            echo '<div style="background-color:#A00008; border-color:#A00008;" class="panel-heading">' . $row['itemName'] . '</div>';
+            echo  '<div class="panel-body"><img src="' . $row['itemPic'] . '" class="img-responsive" style="width:100%" alt="Placeholder"></div>';
+            echo '<div style="border-width:2px; border-color:#A00008; background-color:#BCB8B1;" class="panel-footer">' . $row['itemPrice'] . '</div>';
+          }
+        }
+?>
       </div>
     </div>
     <div class="col-sm-4">
       <div style="background-color:#BCB8B1; border-color:#A00008;" class="panel panel-primary">
-        <div style="background-color:#A00008; border-color:#A00008;" class="panel-heading">Placeholder</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Placeholder"></div>
-        <div style="border-width:2px; border-color:#A00008; background-color:#BCB8B1;" class="panel-footer">Description Placeholder</div>
+      <?php
+        $result = mysqli_query($conn, "SELECT * FROM CPU WHERE itemID=6");
+        if (mysqli_num_rows($result)) {
+          while($row = mysqli_fetch_array($result)) {
+            echo '<div style="background-color:#A00008; border-color:#A00008;" class="panel-heading">' . $row['itemName'] . '</div>';
+            echo  '<div class="panel-body"><img src="' . $row['itemPic'] . '" class="img-responsive" style="width:100%" alt="Placeholder"></div>';
+            echo '<div style="border-width:2px; border-color:#A00008; background-color:#BCB8B1;" class="panel-footer">' . $row['itemPrice'] . '</div>';
+          }
+        }
+?>
       </div>
     </div>
     <div class="col-sm-4">
       <div style="background-color:#BCB8B1; border-color:#A00008;" class="panel panel-primary">
-        <div style="background-color:#A00008; border-color:#A00008;" class="panel-heading">Placeholder</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Placeholder"></div>
-        <div style="border-width:2px; border-color:#A00008; background-color:#BCB8B1;" class="panel-footer">Description Placeholder</div>
+      <?php
+        $result = mysqli_query($conn, "SELECT * FROM CPU WHERE itemID=7");
+        if (mysqli_num_rows($result)) {
+          while($row = mysqli_fetch_array($result)) {
+            echo '<div style="background-color:#A00008; border-color:#A00008;" class="panel-heading">' . $row['itemName'] . '</div>';
+            echo  '<div class="panel-body"><img src="' . $row['itemPic'] . '" class="img-responsive" style="width:100%" alt="Placeholder"></div>';
+            echo '<div style="border-width:2px; border-color:#A00008; background-color:#BCB8B1;" class="panel-footer">' . $row['itemPrice'] . '</div>';
+          }
+        }
+?>
       </div>
     </div>
   </div>
@@ -99,12 +144,7 @@
 
 <?php
 
-$result = mysqli_query($conn, "SELECT * FROM CPU");
-if (mysqli_num_rows($result)) {
-  while($row = mysqli_fetch_array($result)) {
-    echo $row['itemName'];
-  }
-}
+echo $row['itemPic'];
 
 ?>
 <footer>
