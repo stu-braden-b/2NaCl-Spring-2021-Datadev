@@ -2,6 +2,8 @@ This is the website 2NaCl created for the Spring 2021 Data Dev competition/cours
 
 Our team consists of Braden Bell, Jeb Holt, and Kamden Edens.
 
+
+/*
 +-----------------------------+
 |  ___  _   _        _____ _  |
 | |__ \| \ | |      / ____| | |
@@ -11,14 +13,5 @@ Our team consists of Braden Bell, Jeb Holt, and Kamden Edens.
 | |____|_| \_|\__,_|\_____|_| |
 |                             |
 +-----------------------------+  
+*/
 
-
-
-
-
-
-
-
-
-
-.
